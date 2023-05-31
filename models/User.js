@@ -1,10 +1,10 @@
 const { Schema, model } = require('mongoose');
 
 // Schema to create Post model
-const postSchema = new Schema(
+const userSchema = new Schema(
   {
-    published: {
-      type: Boolean,
+    username: {
+      type: String,
       default: false,
     },
     createdAt: {
